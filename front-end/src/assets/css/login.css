@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&family=Sanchez&display=swap');
+
+.body{
+    display: flex;
+    flex-direction: column;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+}
+
+header{
+    width: 100%;
+    height: 150px;
+    background-color: #005AE6;
+    display: flex;
+    justify-content: center;
+}
+
+.main-login{
+    width: 100%;
+    height: auto;
+    background-image: url("../img/Doctors-login.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer{
+    width: 100%;
+    height: 200px;
+    background-color: #005AE6;
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+}
+
+.content-cabecalho{
+    width: 90%;
+    height: 100%;
+    /* background-color: blueviolet; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.esquerdo-header{
+    width: 21%;
+    height: 100%;
+    /* background-color: aquamarine; */
+    font-size: 24px;
+    font-family: 'Sanchez', serif;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.direito-header{
+    width: 50%;
+    height: 100%;
+    /* background-color: aquamarine; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.direito-header input{
+    border-radius: 30px;
+    background-color: #BFD6F9;
+    color: #000;
+}
+
+.links-cabecalho{
+    width: 70%;
+    height: 100%;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.links-cabecalho a{
+    text-decoration: none;    
+    color: white;
+    font-size: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.links-cabecalho a:hover{
+    font-size: 35px;
+    text-decoration: underline;
+}
+
+.alinhando-centro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.link-home{
+    text-decoration: none;
+}
+
+.link-home p{
+    color: #fff;
+}
+
+.informacoes{
+    width: 60%;
+    height: 100%;
+    /* background-color: brown; */
+}
+
+.informacoes h2{
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 60px;
+}
+
+.dados{
+    width: 100%;
+    height: 55%;
+    background-color: #46f1fa;
+    opacity: 0.85;
+    margin-bottom: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.input input{
+    font-size: 20px;
+    font-weight: 400;
+    width: 685px;
+    height: 45px;
+    border-radius: 40px;
+}
+
+.input{
+    font-size: 25px;
+}
+
+.dados h3{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    display: flex;
+    align-self: flex-start;
+}
+
+.dados button{
+    width: 250px;
+    height: 65px;
+    background-color: #fff;
+    border-radius: 120px;
+    font-size: 30px;
+    font-family: 'PT Sans', sans-serif;
+    color: #000;
+}
+
+.esquerdo-footer{
+    width: 20%;
+    height: 100%;
+    /* background-color: turquoise; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    color: #fff;
+}
+
+.esquerdo-footer a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.altura-{
+    width: 100%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.faleConosco input{
+    border-radius: 25px;
+    background-color: #BFD6F9;
+}
+
+.centro-footer{
+    width: 30%;
+    height: 100%;
+    /* background-color: turquoise; */
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.altura--{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo-footer{
+    width: 70%;
+    font-family: 'Sanchez', serif; 
+    font-size: 24px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo-footer p{
+    text-decoration: none;
+    text-decoration-color: none;
+    color: #fff;
+}
+
+.direito-footer{
+    width: 20%;
+    height: 100%;
+    /* background-color: turquoise; */
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.redes{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.redes img{
+    width: 50px;
+    height: 50px;
+}
