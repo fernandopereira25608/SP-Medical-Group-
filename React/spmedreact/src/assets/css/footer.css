@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container_footer{
+    height: 300px;
+    background-color: #F6F6F6;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.grid_footer{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container_logo img{
+    width: 150px;
+}
+
+.container_about{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+}
+
+.container_about h2{
+    font-family: 'Titillium Web', sans-serif;
+    color: black;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.3em;
+    margin-bottom: 10px;
+}
+
+.container_about p{
+    font-family: 'Titillium Web', sans-serif;
+    color: black;
+    text-align: justify;
+    text-transform: uppercase;
+    font-size: 0.8em;
+}
+
+.container_email{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+
+.container_email span{
+    font-family: 'Titillium Web', sans-serif;
+    color: black;
+    text-align: start;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    margin-bottom: 15px;
+}
+
+.nws input{
+    height: 25px;
+    background-color: #9FD8D3;
+    font-family: 'Titillium Web', sans-serif;
+    color: white;
+    border: none;
+}
+
+.nws button{
+    height: 25px;
+    border: none;
+    width: 45px;
+    background-color: #112C2C;
+    font-family: 'Titillium Web', sans-serif;
+    color: white;
+}

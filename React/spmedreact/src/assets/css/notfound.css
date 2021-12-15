@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
+
+.texto_notfound{
+    font-family: 'Titillium Web', sans-serif;
+    color: black;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 2.3em;
+}
+
+.container_notfound{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 750px;
+}
