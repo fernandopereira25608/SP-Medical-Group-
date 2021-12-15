@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container_header{
+    height: 120px;
+    background-color: #F6F6F6;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.grid_header{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container_logo img{
+    width: 120px;
+}
+
+.container_nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 45%;
+}
+
+.container_icon{
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+    justify-content: center;
+    text-align: center;
+}
+
+.icon_home{
+    height: 45px;
+}
+
+.icon_info{
+    height: 43px;
+}
+
+.icon_contato{
+    height: 35px;
+}
+
+.icon_consulta{
+    height: 35px;
+}
+
+.icon_login{
+    height: 35px;
+}
+
+.container_icon p{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.alinhar{
+    margin-bottom: 3px;
+}
+
+.alinhar_login{
+    padding-left: 10px;
+}

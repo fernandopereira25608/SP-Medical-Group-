@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-family: 'Titillium Web', sans-serif;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 2.3em;
+}
+
+h2 {
+    font-family: 'Titillium Web', sans-serif;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 2.3em;
+}
+
+label {
+    font-family: 'Titillium Web', sans-serif;
+    color: white;
+    text-transform: uppercase;
+    font-size: 1.3em;
+}
+
+input {
+    font-family: 'Titillium Web', sans-serif;
+    color: black;
+    font-size: 1em;
+    background-color: white;
+    border: none;
+}
+
+.container {
+    width: 100%;
+}
+
+.grid {
+    display: flex;
+    width: 90%;
+    align-items: center;
+}
+
+.background_consulta {
+    background-image: url(../img/Pac_BG.png);
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    justify-content: center;
+    height: 960px;
+    display: flex;
+}
+
+.alinhar_consulta {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 12%;
+}
+
+.container_tabela {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 75%s;
+}
+
+.tabela {
+    margin-top: 65px;
+    border-spacing:0 7px;
+    text-align: center;
+    overflow: auto;
+    height: 20px;
+}
+
+.tabela th {
+    color: white;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 1.5em;
+    border-bottom: 2px solid white;
+}
+
+.tabela td{
+    color: white;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 1em;
+    border-bottom: 2px solid white;   
+}

@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-family: 'Titillium Web', sans-serif;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 2.3em;
+}
+
+h2 {
+    font-family: 'Titillium Web', sans-serif;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 2.3em;
+}
+
+label {
+    font-family: 'Titillium Web', sans-serif;
+    color: white;
+    text-transform: uppercase;
+    font-size: 1.3em;
+}
+
+input {
+    font-family: 'Titillium Web', sans-serif;
+    color: black;
+    font-size: 1em;
+    background-color: white;
+    border: none;
+}
+
+.container {
+    width: 100%;
+}
+
+.grid {
+    display: flex;
+    width: 90%;
+    align-items: center;
+}
+
+.alinhar_box {
+    justify-content: flex-end;
+}
+
+.background_cadastrar {
+    background-image:url(../img/Cadastrar_BackGround.png);
+    height: 760px;
+    display: flex;
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    justify-content: center;
+}
+
+.container_form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    height: 650px;
+}
+
+.alinhar_form {
+    margin-top: 12%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container_input {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.container_input select {
+    width: 290px;
+    height: 40px;
+}
+
+.container_input input {
+    width: 290px;
+    height: 40px;
+}
+
+.espacamento {
+    margin-top: 40px;
+}
+
+.btn {
+    margin-top: 70px;
+    width: 150px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #112C2C;
+    color: white;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 1.5em;
+}
+
+.background_consulta {
+    background-image: url(../img/ListaAdm_BackGround.png);
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    justify-content: center;
+    height: 960px;
+    display: flex;
+}
+
+.alinhar_consulta {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 12%;
+}
+
+.container_tabela {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 75%s;
+}
+
+.tabela {
+    margin-top: 65px;
+    border-spacing:0;
+    text-align: center;
+    overflow: auto;
+    height: 20px;
+}
+
+.tabela th {
+    color: white;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 1.5em;
+    border-bottom: 2px solid white;
+}
+
+.tabela td{
+    color: white;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 1em;
+    border-bottom: 2px solid white;
+}
